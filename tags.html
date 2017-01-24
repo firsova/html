@@ -40,10 +40,16 @@
 		
 		<div align = "center">
 			<a href="http://lorempixel.com"> Site with random pics for any sizes</a><br>
+			
+			<!--Makes adaptive picture-->
+			<picture>
+			<source media="(min-width:1024px)" srcset="http://lorempixel.com/output/abstract-q-c-200-150-10.jpg">
+			<source media="(min-width:640px)" srcset="http://lorempixel.com/output/abstract-q-c-200-150-6.jpg">
 			<img src="http://lorempixel.com/output/abstract-q-c-200-150-9.jpg" 
 				 alt="This text opens instead of image"
 				 title="Title of the image"
 				 border = "2">
+			</picture>
 		</div>
 		
 		<hr>
